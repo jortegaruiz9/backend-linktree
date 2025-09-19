@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hashtags",
+  "info": {
+    "singularName": "hashtag",
+    "pluralName": "hashtags",
+    "displayName": "Hashtag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "tag": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "minLength": 2,
+      "regex": "^#?[a-z0-9_]{1,30}$"
+    }
+  }
+}
