@@ -22,8 +22,7 @@
           "localized": true
         }
       },
-      "minLength": 2,
-      "regex": "^#?[a-z0-9_]{1,30}$"
+      "minLength": 2
     }
   }
 }
