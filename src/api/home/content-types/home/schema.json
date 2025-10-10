@@ -86,18 +86,14 @@
       "required": true,
       "unique": true
     },
-    "background": {
-      "type": "media",
+    "backgroundUrl": {
+      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "regex": "https:\\/\\/[a-z0-9]+\\.public\\.blob\\.vercel-storage\\.com\\/[A-Za-z0-9/_\\-]+\\.(jpg|jpeg|png|gif|webp)"
     }
   }
 }
