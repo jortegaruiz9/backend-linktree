@@ -9,24 +9,16 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": false
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
-    "Media": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images"
-      ]
-    },
     "brand": {
       "type": "string",
       "minLength": 2,
       "required": true
+    },
+    "photoUrl": {
+      "type": "string",
+      "regex": "https:\\/\\/[a-z0-9]+\\.public\\.blob\\.vercel-storage\\.com\\/[A-Za-z0-9/_\\-]+\\.(jpg|jpeg|png|gif|webp)"
     }
   }
 }
